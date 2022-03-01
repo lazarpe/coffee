@@ -4,8 +4,15 @@
  **/
 public class VanillaSurprise extends Beverage {
 
+    public static final String NAME = Color.YELLOW_BOLD + "Vanilla Surprise" + Color.RESET;
+    public static final double PRICE = 0.45;
 
+    public VanillaSurprise() {
+        description = NAME;
+    }
+
+    @Override
     public double cost() {
-        return .45;
+        return super.cost() + PRICE;
     }
 }

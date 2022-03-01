@@ -3,13 +3,15 @@
  * Project name: coffee
  **/
 public class RegularCoffee extends Beverage {
-    @Override
-    public String getDescription() {
-        return super.getDescription() + ": Regular coffee";
+    public static final String NAME = "Regular Coffee";
+    public static final double PRICE = 0.15;
+
+    public RegularCoffee() {
+        description = NAME;
     }
 
     @Override
     public double cost() {
-        return super.cost();
+        return super.cost() + PRICE;
     }
 }

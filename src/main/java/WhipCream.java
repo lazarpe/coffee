@@ -2,9 +2,9 @@ import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
 public class WhipCream extends CondimentDecorator {
-    public static final String NAME = "Whip Cream";
+    public static final String NAME = Color.WHITE_BOLD + "Whip Cream" + Color.RESET;
     public static final double PRICE = 0.45;
-    private Beverage beverage;
+    private final Beverage beverage;
 
     @Override
     public String getDescription() {
