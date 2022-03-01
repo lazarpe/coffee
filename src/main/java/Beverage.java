@@ -2,7 +2,7 @@
  * Created by lazar on 3/1/2022.
  * Project name: coffee
  **/
-public class Bevarage {
+public class Beverage {
     protected String description;
 
     public String getDescription() {
