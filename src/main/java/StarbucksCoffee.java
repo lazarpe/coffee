@@ -1,5 +1,5 @@
-public class Main {
+public class StarbucksCoffee {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        OutputUtils.ASCIIArt("Starbucks Coffee","#");
     }
 }
